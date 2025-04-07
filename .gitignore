@@ -1,0 +1,57 @@
+# Bytecode de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de entorno
+.env
+*.env
+
+# Entornos virtuales
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de log
+*.log
+
+# Base de datos SQLite (si se usara para tests)
+*.sqlite3
+
+# Archivos de migraciones generados automáticamente
+migrations/versions/
+
+# Archivos de pytest
+.cache/
+*.pytest_cache/
+
+# Archivos generados por Docker
+*.pid
+*.sock
+docker-compose.override.yml
+
+# Archivos y carpetas temporales
+*.bak
+*.swp
+*~
+.DS_Store
+
+# Archivos de test
+.coverage
+htmlcov/
+coverage.xml
+
+# Archivos comprimidos
+*.zip
+*.tar.gz
+
+# Binarios de entrada
+entrypoint.sh
+run_tests.sh
