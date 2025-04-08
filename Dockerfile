@@ -13,4 +13,6 @@ COPY . .
 EXPOSE 5000
 
 # Comando para ejecutar las migraciones y la aplicación
-CMD ["./entrypoint.sh"]
+#CMD ["./entrypoint.sh"]
+
+CMD ["python", "wsgi.py"]
